@@ -221,23 +221,24 @@ namespace Algorithm_Practice
 
        
 
-        static int minDistance(int [] values)
+        static int minDistance(int[] values)
         {
-            int dmin = 10000;
-            for (int i = 0; i < values.Length; i++)
+            int dmin = int.MaxValue;
+
+            for (int i = 0; i < values.Length - 1; i++)
             {
-                for (int j = 0; j < values.Length; j++)
+                for (int j = i + 1; j < values.Length; j++)
                 {
-                    if (i!=j  && Math.Abs(values[i] - values[j]) < dmin)
-                    {
-                        dmin = Math.Abs(values[i] - values[j]);
-                    }
+                    int diff = Math.Abs(values[i] - values[j]);
+
+                    if (diff < dmin)
+                        dmin = diff;
                 }
             }
+
             return dmin;
         }
-        
-        int[] numbers1 = { 3, 4, 55, 9, 6, 5, 10 };
+        int[] numbers1 = { 30, 40, 1, 90, 60, 50, 10 };
         int results = minDistance(numbers1);
         Console.WriteLine("The minimum distance is: {0:d}", results);
         Console.Write("\nPress any key to continue . . . ");
