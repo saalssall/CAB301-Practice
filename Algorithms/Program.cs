@@ -45,6 +45,20 @@ namespace Algorithm_Practice
                 Console.WriteLine($"{num} is an odd number.");
             }
         }
+        
+        // Second version
+
+        void checkNmEven()
+        {
+            int a = 2;
+            while (a <= 100)
+            {
+                Console.WriteLine($"{a} is an even number.");
+                a += 2;
+            }
+
+        }
+        // checkNmEven();
         //Checking the output
         checkNum(100);
         checkNum(205);
