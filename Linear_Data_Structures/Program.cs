@@ -54,10 +54,45 @@ namespace Data_Structures
             
             Arrays newArr = new Arrays();
             
-            LinkedLists linkedList = new LinkedLists();
-            linkedList.Equals(newArr);
-            
+            Node node1 = new Node("once");
+            Node node2 = new Node("upon");
+            Node node3 = new Node("a");
+            Node node4 = new Node("time");
 
+            node1.NextNode = node2;
+            node2.NextNode = node3;
+            node3.NextNode = node4;
+            
+            Console.WriteLine(node1);
+            Console.WriteLine(node2);
+            Console.WriteLine(node3);
+            Console.WriteLine(node4);
+
+            LinkedList list = new LinkedList(node1);
+            Console.WriteLine("-------------");
+            Console.WriteLine(list.Head.Data); // once
+            Console.WriteLine(list.Tail.Data); 
+            
+            //Reading through the linked_list
+            Console.WriteLine("-------------");
+            Console.WriteLine(list.Read(1));
+            Console.WriteLine(list.Read(3));
+            
+            //Reading through the linked_list
+            Console.WriteLine("-------------");
+            Console.WriteLine(list.IndexOf("time"));
+            Console.WriteLine(list.IndexOf("once"));
+            
+            //Reading through the linked_list
+            Console.WriteLine("-------------");
+            list.InsertAtIndex(2, "long");
+            Console.WriteLine(list.Read(2));
+            
+            //Deleting items of the list
+            Console.WriteLine("-------------");
+            list.DeleteAtIndex(2);
+            Console.WriteLine(list.Read(2));
+            
         }
     }
 }
