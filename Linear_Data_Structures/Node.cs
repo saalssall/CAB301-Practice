@@ -4,11 +4,13 @@ public class Node
 {
     public string Data { get; set; }
     public Node NextNode { get; set; }
+    public Node PreviousNode { get; set; }
 
     public Node(string data)
     {
         Data = data;
         NextNode = null;
+        PreviousNode = null;
     }
 
     //Overriding the ToString method to check the nodes and what comes after them
@@ -17,5 +19,6 @@ public class Node
         return $"{Data} -> {(NextNode != null ? NextNode.Data : "null")}";
     }
     
+   
     
 }

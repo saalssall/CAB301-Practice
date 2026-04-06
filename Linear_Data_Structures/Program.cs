@@ -88,10 +88,10 @@ namespace Data_Structures
             list.InsertAtIndex(2, "long");
             Console.WriteLine(list.Read(2));
             
-            //Deleting items of the list
-            Console.WriteLine("-------------");
-            list.DeleteAtIndex(2);
-            Console.WriteLine(list.Read(2));
+            DoublyLinkedList list2 = new DoublyLinkedList();
+            
+            list2.InsertAtEnd("2");
+            Console.WriteLine(list2.Tail.Data);
             
         }
     }
