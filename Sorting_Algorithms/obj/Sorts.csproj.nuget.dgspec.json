@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Sorts/Sorts.csproj": {}
+    "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Sorting_Algorithms/Sorts.csproj": {}
   },
   "projects": {
-    "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Sorts/Sorts.csproj": {
+    "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Sorting_Algorithms/Sorts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Sorts/Sorts.csproj",
+        "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Sorting_Algorithms/Sorts.csproj",
         "projectName": "Sorts",
-        "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Sorts/Sorts.csproj",
+        "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Sorting_Algorithms/Sorts.csproj",
         "packagesPath": "/Users/hamidullahrezae/.nuget/packages/",
-        "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Sorts/obj/",
+        "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Sorting_Algorithms/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hamidullahrezae/.nuget/NuGet/NuGet.Config"

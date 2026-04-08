@@ -1,6 +1,6 @@
 namespace Sorts;
 
-public class QuickSort1
+public class QuickSortAlgorithm
 {
     
     /* Pseudocode:
@@ -21,8 +21,6 @@ public class QuickSort1
           return i + 1;
 
                  ***/
-
-   
 
     public static void QuickSort(int[] arr, int low, int high)
     {

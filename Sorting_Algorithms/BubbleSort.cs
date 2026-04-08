@@ -58,6 +58,5 @@ public class BubbleSort
                 break;
             }
         }
-        Console.WriteLine("Sorted array: " + string.Join(", ", sortArray));
     }
 }
