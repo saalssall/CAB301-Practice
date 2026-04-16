@@ -15,7 +15,7 @@ public class Binary_Search
             {
                 return mid_point;
             }
-            else if (searchValue < value_at_midpoint)
+            if (searchValue < value_at_midpoint)
             {
                 upper_bound = mid_point - 1;
             }
