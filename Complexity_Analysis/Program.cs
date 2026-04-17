@@ -19,14 +19,22 @@ namespace Complexity_Analysis
                 Console.WriteLine();
             }
             
+            //Cocktail search
             CocktailShakerSortAlgorithm cocktailsort = new CocktailShakerSortAlgorithm();
             int[] array = [1, 6, 2, 5, 2, 5, 3];
-            
             Console.WriteLine("Sorted before:");
             PrintArray(array);
             Console.WriteLine("Sorted after:");
             cocktailsort.CocktailShakerSort(array);
             PrintArray(array);
+            
+            //Jump-search
+            JumpSearchAlgorithm jumpSearchAlgorithm = new JumpSearchAlgorithm();
+            int[] array1 = [1, 2, 3, 4, 5, 6, 7];
+            Console.WriteLine("Search result index: " + jumpSearchAlgorithm.JumpSearch(array1, 3));
+            
+            
+            
             
             
 
