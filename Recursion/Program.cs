@@ -171,6 +171,27 @@ namespace Recursion
             printFun(test);
 
 
+            //Recursion
+            static int Max(int[] array, int index = 0)
+            {
+                Console.WriteLine("RECURSION");
+
+                // Base case: only one element left
+                if (index == array.Length - 1)
+                    return array[index];
+
+                // Calculate the max of the remainder and store it in a variable
+                int maxOfRemainder = Max(array, index + 1);
+
+                // Compare first number against this variable
+                if (array[index] > maxOfRemainder)
+                    return array[index];
+                else
+                    return maxOfRemainder;
+            }
+
+            int result = Max(g, 1);
+            Console.WriteLine(result);
         }
     }
 }
