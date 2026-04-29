@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/Fibonacci/Fibonacci.csproj",
+      "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Fibonacci/Fibonacci.csproj",
       "projectName": "Fibonacci",
-      "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/Fibonacci/Fibonacci.csproj",
+      "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Fibonacci/Fibonacci.csproj",
       "packagesPath": "/Users/hamidullahrezae/.nuget/packages/",
-      "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301Pracs/Fibonacci/obj/",
+      "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Fibonacci/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hamidullahrezae/.nuget/NuGet/NuGet.Config"
