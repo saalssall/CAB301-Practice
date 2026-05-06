@@ -1,7 +1,7 @@
 # Algorithms and Data Structures
 
 This repository contains my practice work on algorithms, data structures, 
-and complexity analysis completed as part of my software development studies.
+and complexity analysis completed as part of my computer science studies.
 
 ## Purpose
 The goal of this repository is to:
