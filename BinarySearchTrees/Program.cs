@@ -6,35 +6,42 @@ namespace MyNamespace
     {
         static void Main(string[] args)
         {
-            TreeNode node1 = new TreeNode(25);
-            TreeNode node2 = new TreeNode(75);
-            TreeNode root = new TreeNode(50, node1, node2);
+            // build tree correctly using Insert from the start
+            TreeNode root = new TreeNode(50);
+            Insertion insertion = new Insertion();
+
+            insertion.Insert(25, root);
+            insertion.Insert(75, root);
+            insertion.Insert(10, root);
+            insertion.Insert(30, root);
 
             Console.WriteLine("--- Initial Tree ---");
             Console.WriteLine($"Root: {root.Value}");
             Console.WriteLine($"Left: {root.Left?.Value}");
             Console.WriteLine($"Right: {root.Right?.Value}");
-            Console.WriteLine("---------------");
-            
+
+            Console.WriteLine("--- In-Order Traversal (before deletion) ---");
+            Traversal traversal = new Traversal();
+            traversal.TraverseAndPrint(root);
+
             Console.WriteLine("--- Searching the tree ---");
             Searching search = new Searching();
             search.Run();
-            Console.WriteLine("---------------");
-            
-            Console.WriteLine("--- Inserting in the tree ---");
-            Insertion insertion = new Insertion();
-            insertion.Run();
-            Console.WriteLine("---------------");
-            
-            Console.WriteLine("--- Deleting from the Tree ---");
+           
+            Console.WriteLine("--- Inserting 60 into the tree ---");
+            insertion.Insert(60, root);
+          
+            Console.WriteLine("--- Deleting 25 from the tree ---");
             Deletion deletion = new Deletion();
-            // pass root not node1, and capture return value
             root = deletion.Delete(25, root);
 
-            Console.WriteLine("--- After Deleting 25 ---");
             Console.WriteLine($"Root: {root?.Value}");
             Console.WriteLine($"Left: {root?.Left?.Value}");
             Console.WriteLine($"Right: {root?.Right?.Value}");
+            Console.WriteLine("---------------");
+
+            Console.WriteLine("--- In-Order Traversal (after deletion) ---");
+            traversal.TraverseAndPrint(root);
         }
     }
 }

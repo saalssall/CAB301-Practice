@@ -47,23 +47,4 @@ public class Insertion
             }
         }
     }
-    /// <summary>
-    /// Run 
-    /// </summary>
-
-    public void Run()
-    {
-        TreeNode root = new TreeNode(50);
-
-        Insert(10, root);
-        Insert(34, root);
-        Insert(10, root);
-        Insert(33, root);
-        Insert(56, root);
-        Insert(89, root);
-
-        Console.WriteLine($"Root: {root.Value}");
-        Console.WriteLine($"Left: {root.Left?.Value}");
-        Console.WriteLine($"Right: {root.Right?.Value}");
-    }
 }
