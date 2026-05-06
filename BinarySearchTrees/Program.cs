@@ -38,7 +38,6 @@ namespace MyNamespace
             Console.WriteLine($"Root: {root?.Value}");
             Console.WriteLine($"Left: {root?.Left?.Value}");
             Console.WriteLine($"Right: {root?.Right?.Value}");
-            Console.WriteLine("---------------");
 
             Console.WriteLine("--- In-Order Traversal (after deletion) ---");
             traversal.TraverseAndPrint(root);
