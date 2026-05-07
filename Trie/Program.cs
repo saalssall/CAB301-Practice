@@ -6,7 +6,8 @@ namespace Trie
     {
         static void Main(string[] args)
         {
-            
+            Trie trie = new Trie();
+            trie.Root = new TrieNode();
             
         }
     }
