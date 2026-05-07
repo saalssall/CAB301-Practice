@@ -1,14 +1,18 @@
-﻿using System;
+﻿namespace Trie;
 
-namespace Trie
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Trie trie = new Trie();
-            trie.Root = new TrieNode();
-            
-        }
+        Trie trie = new Trie();
+
+        trie.Insert("apple");
+        trie.Insert("app");
+        trie.Insert("banana");
+
+        Console.WriteLine(trie.ExactMatch("app"));    // true
+        Console.WriteLine(trie.ExactMatch("appl"));   // false
+        Console.WriteLine(trie.StartsWith("appl"));   // true
+        Console.WriteLine(trie.StartsWith("xyz"));    // false
     }
 }
