@@ -430,6 +430,75 @@ Elements left of pivot do not need full ordering initially.
 2. Sort the 3 elements
 3. Hide pivot before partitioning
 
+# Week 05 — Sorting Algorithms
+
+## Insertion Sort
+
+### Idea
+Take an element from the unsorted section and move it into the correct position in the sorted section.
+
+### Process
+- Shift larger numbers to the right
+- Use a temporary variable to store the value being sorted
+- Update values in the array as elements shift
+
+### Steps
+1. Move to the next element in the unsorted part
+2. Compare it with elements in the sorted part
+3. Insert it into the correct position
+
+---
+
+## Selection Sort
+
+### Idea
+Find the minimum value and swap it into the correct position.
+
+### Process
+- Find the smallest value in the array
+- Track the minimum index
+- Store the minimum value temporarily
+- Swap it with the larger value
+
+### Analogy
+Like organizing books by height on a shelf.
+
+### Key Characteristic
+- Always scans the entire remaining array
+
+---
+
+## Bubble Sort
+
+### Idea
+At each pass, the largest value moves to the end.
+
+### Process
+- Compare adjacent elements
+- Swap elements when needed
+- Let the “bubble” rise to the top each round
+
+### Key Characteristic
+- Uses swapping only
+
+---
+
+## Merge Sort
+
+### Idea
+Uses divide and conquer.
+
+### Process
+1. Divide the list into smaller sublists
+2. Continue splitting recursively
+3. Sort each sublist independently
+4. Merge sorted halves together efficiently
+
+### Key Characteristics
+- Recursive algorithm
+- Splits the problem in half repeatedly
+- Combines sorted results during merging
+  
 # Week 06
 
 ## Big-O Complexity
