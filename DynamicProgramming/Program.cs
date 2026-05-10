@@ -10,6 +10,11 @@ namespace Dynamic_Programming
             new Memoization().Run();
             new Top_Down().Run();
             
+            var (length, sequence) = LIS.Solve(new[] { 3, 1, 4, 1, 5, 9, 2, 6 });
+
+            WriteLine($"Length:   {length}");
+            WriteLine($"Sequence: [{string.Join(", ", sequence)}]");
+            
         }
     }
 }

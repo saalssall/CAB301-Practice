@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Dynamic_Programming/Dynamic_Programming.csproj",
+      "projectUniqueName": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/DynamicProgramming/Dynamic_Programming.csproj",
       "projectName": "Dynamic_Programming",
-      "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Dynamic_Programming/Dynamic_Programming.csproj",
+      "projectPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/DynamicProgramming/Dynamic_Programming.csproj",
       "packagesPath": "/Users/hamidullahrezae/.nuget/packages/",
-      "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Dynamic_Programming/obj/",
+      "outputPath": "/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/DynamicProgramming/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hamidullahrezae/.nuget/NuGet/NuGet.Config"
