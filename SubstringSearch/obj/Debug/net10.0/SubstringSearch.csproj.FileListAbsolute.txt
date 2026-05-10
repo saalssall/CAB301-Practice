@@ -1,0 +1,15 @@
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/bin/Debug/net10.0/SubstringSearch
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/bin/Debug/net10.0/SubstringSearch.deps.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/bin/Debug/net10.0/SubstringSearch.runtimeconfig.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/bin/Debug/net10.0/SubstringSearch.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/bin/Debug/net10.0/SubstringSearch.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/obj/Debug/net10.0/SubstringSearch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/obj/Debug/net10.0/SubstringSearch.AssemblyInfoInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/obj/Debug/net10.0/SubstringSearch.AssemblyInfo.cs
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/obj/Debug/net10.0/SubstringSearch.csproj.CoreCompileInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/obj/Debug/net10.0/SubstringSearch.sourcelink.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/obj/Debug/net10.0/SubstringSearch.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/obj/Debug/net10.0/refint/SubstringSearch.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/obj/Debug/net10.0/SubstringSearch.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/obj/Debug/net10.0/SubstringSearch.genruntimeconfig.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/SubstringSearch/obj/Debug/net10.0/ref/SubstringSearch.dll
