@@ -19,6 +19,12 @@ namespace Dynamic_Programming
             var (lcsLength, lcsSequence) = LCS.Solve("ABCBDAB", "BDCAB");
             WriteLine($"Length:   {lcsLength}");
             WriteLine($"Sequence: {lcsSequence}");
+            WriteLine("------------"); 
+            
+            
+            EditDistance editDistance1 = new EditDistance(); 
+            WriteLine($"EditDistance: {editDistance1.editDistance("ABCBDAB", "BDCAB")}");
+           
             
         }
     }
