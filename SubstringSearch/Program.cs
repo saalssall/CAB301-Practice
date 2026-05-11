@@ -14,6 +14,12 @@ namespace SubstringSearch
       
       int index = SundaySearch.Search("world", "hello world");
       Console.WriteLine(index); // 6
+      
+      int bm = BoyerMooreAlgorithm.Search("world", "hello world");
+      Console.WriteLine(bm); // 6
+
+      int notFound = BoyerMooreAlgorithm.Search("xyz", "hello world");
+      Console.WriteLine(notFound); // -1
     }
   }
 }
