@@ -552,67 +552,62 @@ A stable algorithm:
 # Week 08 — Dynamic Programming
 
 ## Dynamic Programming
+Dynamic programming is the process of optimizing recursive problems that have overlapping subproblems.
 
-Dynamic programming is the process of optimizing recursive problems that contain overlapping subproblems.
+It is important to define what the subproblems are before anything else.
 
----
-
-## Subproblems
-
-A subproblem occurs when a larger problem is solved using smaller versions of the same problem.
+Dynamic programming is a kind of divide and conquer.
 
 ---
 
-## Overlapping Subproblems
+# Overlapping Subproblems
 
-Overlapping subproblems occur when recursive calls repeatedly solve the same smaller problems.
+## Subproblem
+When a problem is solved by solving smaller versions of the same problem, the smaller problem is called the **subproblem**.
 
 ### Fibonacci Example
+In the case of Fibonacci numbers, `fib(n-1)` and `fib(n-2)` call many of the same functions as each other, which is what **overlapping subproblems** are all about.
 
-In Fibonacci recursion:
-
-- `fib(n-1)` and `fib(n-2)` repeatedly call many of the same functions
-
-This repeated work creates overlapping subproblems.
+One of the two techniques used to solve overlapping subproblems is **memoization**.
 
 ---
 
-## Solving Overlapping Subproblems
+# Techniques for Solving Overlapping Subproblems
 
-One major technique is **memoization**.
+## 1. Memoization (Top-Down)
 
----
+### Definition
+Memoization reduces recursive calls in cases of overlapping subproblems by remembering previously computed functions.
 
-## 1. Memoization
+Start at the problem you want to solve, then solve subproblems as required.
 
-### Purpose
+### Advantages
+- Stores computed recursive calls in a hash table to avoid recomputation.
+- The hash table is passed as the second parameter to functions so they can access stored values.
 
-- Reduces recursive calls
-
-- Avoids recomputing previously solved problems
-
-### Method
-
-- Store computed results in a hash table
-
-- Reuse stored values later
-
-### Implementation
-
-- Pass the hash table as a second parameter to recursive functions
+### Disadvantages
+- Memory hungry because of:
+  - the call stack
+  - the memo table
 
 ---
 
-## 2. Bottom-Up Approach
+## 2. Bottom-Up
 
-### Idea
+### Definition
+- Analyse the problem to determine:
+  - which subproblems need to be solved
+  - the order in which they should be solved
+- Solve subproblems in the required order, building up to the solution of the overall problem.
 
-Instead of recursion:
+### Advantages
+- Uses loops instead of recursion.
+- Faster and uses less memory in many cases.
+- Ditches recursion and uses another approach (such as loops) to solve the same problem.
 
-- Use loops or iteration
-
-- Solve smaller problems first and build upward
-
+### Disadvantages
+- May solve problems that are not required.
+- Requires more detailed analysis during design.
 ---
 
 # Sunday Algorithm
