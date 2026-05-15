@@ -614,8 +614,17 @@ Start at the problem you want to solve, then solve subproblems as required.
 
 # Sunday Algorithm
 
-
+Sunday's algorithm works similarly to the bad character heuristic, 
+but instead of looking at a mismatched character inside the current window, it looks at the character just past the end of the current window. 
+It then checks if that character appears in the pattern — if not, skip past it entirely; if yes, shift until it lines up with its rightmost occurrence in the pattern.
 - The algorithm uses a dictionary for comparisons
+  
+## Heuristics: 
+- A function used in search algorithms to select where to search
+- Testing equality backwards as it improves efficiency compared to testing equality forwards
+- A technique used to speed up algorithms 
+
+
 
 ---
 
@@ -637,11 +646,11 @@ Start at the problem you want to solve, then solve subproblems as required.
 
 ---
 
-## Week09 - Trees:
+# Week09 - Trees:
 
-## Week10 - Graphs:
+# Week10 - Graphs:
 
-## Week11 - Shortest Path Algorithm:
+# Week11 - Shortest Path Algorithm:
 
 
 
