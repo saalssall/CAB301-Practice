@@ -618,20 +618,14 @@ Sunday's algorithm works similarly to the bad character heuristic,
 but instead of looking at a mismatched character inside the current window, it looks at the character just past the end of the current window. 
 It then checks if that character appears in the pattern — if not, skip past it entirely; if yes, shift until it lines up with its rightmost occurrence in the pattern.
 - The algorithm uses a dictionary for comparisons
-  
-## Heuristics: 
-- A function used in search algorithms to select where to search
-- Testing equality backwards as it improves efficiency compared to testing equality forwards
-- A technique used to speed up algorithms 
 
-## Bad Character Heuristic:
+## Characteristics
 
-After finding a bad character (c) in the main string that does not match the pattern (p), we shift the entire pattern until the mistmatch becomes a match if a mismatch happens. Otherwise, pattern moves past the bad character. 
-- A kind of Boyer Moore algorithm
+- Very efficient string searching algorithm
 
----
+Complexity — best case is O(n/m) when the pattern's characters rarely appear in the text (maximum skips every time), worst case degrades to O(n·m) on highly repetitive text.
 
-## Process
+### Process
 
 1. Compare the first character
 
@@ -640,12 +634,22 @@ After finding a bad character (c) in the main string that does not match the pat
 3. Check whether the character exists in the dictionary
 
 4. Subtract its index from `j` to determine movement
+  
+## Heuristics: 
+- A function used in search algorithms to select where to search
+- Testing equality backwards as it improves efficiency compared to testing equality forwards
+- A technique used to speed up algorithms 
+
+## Bad Character Heuristic:
+
+When a mismatch happens, slide the pattern right until the mismatched text character lines up with the same character in the pattern. If that character doesn't exist in the pattern at all, slide the pattern completely past it.
+- A kind of Boyer Moore algorithm
 
 ---
 
-## Characteristics
-
-- Very efficient string searching algorithm
+## Naive substring search: 
+Check every position in the text one by one, and at each position compare the pattern character by character from left to right. If all characters match, you found it. If any character doesn't match, move one position to the right and start over.
+No shortcuts, no skips — just brute force.
 
 ---
 
