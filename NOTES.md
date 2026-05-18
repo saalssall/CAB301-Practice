@@ -688,9 +688,19 @@ Checking whether a vertex is connected to another vertex in the graph.
 ### Note: 
 We need to keep track of verti8cies we have visited so far
 
-## Depth-First search algorithm: 
+## Depth-first search algorithm: 
 Start at a vertex, add it to the hash table, and visit its adjacent vertices. Then, ignore if the adjacent vertices has been visited, otherwise perform depth-first search recursively on the vertex
 
+## Breadth-First Search: 
+Start at the starting vertex, add it to the hash table and queue, and start a loop that runs as long as the queue is not empty. Then, remove the current vertex from the queue, iterate over all its adjacent vertices, ignore if it is visited already, otherwise save it to the queue and the hash table. Repeat until the queue is empty. 
+
+## Breadth-First Search vs. Depth-First search algorithms: 
+
+Breadth-first search traverses all the vertices closest to the starting vertex before moving farther away.
+First-depth search immediately moves as far away from the starting vertex as it can. Only when the search hits a dead end does it return back to the starting vertex.
+
+Choosing BFS or DFS depends on whether we want to stay close to the starting vertex. 
+BFS is good for staying close while DFS is good for moving farther away quickly
 
 # Week11 - Shortest Path Algorithm:
 
