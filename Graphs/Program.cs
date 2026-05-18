@@ -23,6 +23,12 @@ namespace Graphs
             Console.WriteLine("----------");
             Depth_First_Search dfs = new Depth_First_Search();
             dfs.Traverse("Alice", friends);
+            
+            Console.WriteLine("----------");
+            Depth_First_SearchV df2 = new Depth_First_SearchV();
+            //Searching for a specific vertex
+            string? result = df2.Dfs("Alice", "Elise", friends);
+            Console.WriteLine(result ?? "Not found");
         }
     }
 }
