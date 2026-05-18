@@ -1,0 +1,15 @@
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/bin/Debug/net10.0/Graphs
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/bin/Debug/net10.0/Graphs.deps.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/bin/Debug/net10.0/Graphs.runtimeconfig.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/bin/Debug/net10.0/Graphs.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/bin/Debug/net10.0/Graphs.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/obj/Debug/net10.0/Graphs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/obj/Debug/net10.0/Graphs.AssemblyInfoInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/obj/Debug/net10.0/Graphs.AssemblyInfo.cs
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/obj/Debug/net10.0/Graphs.csproj.CoreCompileInputs.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/obj/Debug/net10.0/Graphs.sourcelink.json
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/obj/Debug/net10.0/Graphs.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/obj/Debug/net10.0/refint/Graphs.dll
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/obj/Debug/net10.0/Graphs.pdb
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/obj/Debug/net10.0/Graphs.genruntimeconfig.cache
+/Users/hamidullahrezae/Desktop/2026/Sem1/CAB301/CAB301-Practice/Graphs/obj/Debug/net10.0/ref/Graphs.dll
