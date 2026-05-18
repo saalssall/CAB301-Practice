@@ -19,6 +19,10 @@ namespace Graphs
             {
                 Console.WriteLine(friend);
             }
+            
+            Console.WriteLine("----------");
+            Depth_First_Search dfs = new Depth_First_Search();
+            dfs.Traverse("Alice", friends);
         }
     }
 }
