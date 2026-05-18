@@ -657,6 +657,41 @@ No shortcuts, no skips — just brute force.
 
 # Week10 - Graphs:
 
+## Graph: 
+A graph is a data structure that specializes in relationships, as it easily conveys how data is connected.
+A graph may have nodes that form what is known as a cycle, that is, nodes that reference each other circularly.
+
+### Distinction between trees and graphs: 
+- All trees are graphs but not all graphs are trees
+- Graphs should not have cycles 
+- Every node in the tree is connected to another node in the tree
+
+### Vertex: 
+What we referred to as nodes in trees
+### Edges: 
+The lines between nodes (vertices)
+### Neighbours: 
+Vertices connected by an edge are adjacent to each other
+### Connected graph: 
+All vertices are connected in some way
+### Path: 
+The specific sequence of edges to get from one vertex to another
+
+## Graph Search: 
+Checking whether a vertex is connected to another vertex in the graph.
+
+## Graph search usages:
+- Checking connection between two vertices
+- Searching for a particular vertex within a connected graph
+- Traversing a graph
+
+### Note: 
+We need to keep track of verti8cies we have visited so far
+
+## Depth-First search algorithm: 
+Start at a vertex, add it to the hash table, and visit its adjacent vertices. Then, ignore if the adjacent vertices has been visited, otherwise perform depth-first search recursively on the vertex
+
+
 # Week11 - Shortest Path Algorithm:
 
 
