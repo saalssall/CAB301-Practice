@@ -27,8 +27,13 @@ namespace Graphs
             Console.WriteLine("----------");
             Depth_First_SearchV df2 = new Depth_First_SearchV();
             //Searching for a specific vertex
-            string? result = df2.Dfs("Alice", "Elise", friends);
+            string? result = df2.Dfs("Cynthia", "Elise", friends);
             Console.WriteLine(result ?? "Not found");
+            
+            //Breadth-First Search
+            Console.WriteLine("----------");
+            Breadth_First_Search bfs = new Breadth_First_Search();
+            bfs.BfsTraverse("Bob", friends);
         }
     }
 }
