@@ -34,6 +34,16 @@ namespace Graphs
             Console.WriteLine("----------");
             Breadth_First_Search bfs = new Breadth_First_Search();
             bfs.BfsTraverse("Bob", friends);
+            
+            Console.WriteLine("----------");
+            // Create vertices
+            WeightedGraphVertex dallas  = new WeightedGraphVertex("Dallas");
+            WeightedGraphVertex toronto = new WeightedGraphVertex("Toronto");
+
+            dallas.AddAdjacentVertex(toronto, 138);
+            Console.WriteLine($"Dallas -> Toronto: {dallas.AdjacentVertices[toronto]}");
+            toronto.AddAdjacentVertex(dallas, 216);   // Toronto -> Dallas costs 216
+           
         }
     }
 }
